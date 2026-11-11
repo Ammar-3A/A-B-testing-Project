@@ -76,14 +76,5 @@ python main.py
 ```
 ينشئ `main.py` ملف البيانات تلقائيًا إن لم يكن موجودًا، ثم يحفظ الرسوم في `outputs/charts` والجداول في `outputs/results`.
 
-## هيكل المستودع
-```
-├── README.md
-├── main.py
-├── generate_data.py
-├── requirements.txt
-├── data/dataset.csv
-└── outputs/
-    ├── charts/
-    └── results/
-```
+##
+
