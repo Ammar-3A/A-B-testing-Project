@@ -1,0 +1,85 @@
+{
+  "decision": "LAUNCH: clear win, reduction is significant and guardrails are healthy",
+  "primary": {
+    "mean_B": 40.14993608367229,
+    "mean_A": 41.95883984153932,
+    "diff": -1.8089037578670357,
+    "se": 0.6468198012208571,
+    "ci_low": -3.0770887017289326,
+    "ci_high": -0.5407188140051387,
+    "p_value": 0.005192539659014672,
+    "n_B": 1721,
+    "n_A": 1767,
+    "rel_change_pct": -4.311138641341122,
+    "rel_ci_low_pct": -7.333588615294863,
+    "rel_ci_high_pct": -1.2886886673873812,
+    "cohens_d": -0.09466567220168678
+  },
+  "cuped": {
+    "mean_B": 39.791497548357505,
+    "mean_A": 42.30794720955105,
+    "diff": -2.5164496611935476,
+    "se": 0.2889296949584543,
+    "ci_low": -3.082938150804023,
+    "ci_high": -1.9499611715830723,
+    "p_value": 0.0,
+    "n_B": 1721,
+    "n_A": 1767,
+    "rel_change_pct": -5.9974243108177125,
+    "theta": 0.8688373699659387,
+    "variance_reduction_pct": 79.68228449069056
+  },
+  "ols": {
+    "diff": -2.5115103818050555,
+    "ci_low": -3.0581428781987525,
+    "ci_high": -1.9648778854113584,
+    "p_value": 2.1550671229398787e-19
+  },
+  "sample_size": {
+    "alpha": 0.05,
+    "power": 0.8,
+    "mde_relative": 0.05,
+    "baseline_mean_kwh_day": 41.42034403669724,
+    "baseline_sd_kwh_day": 19.66109819163919,
+    "mde_absolute_kwh_day": 2.071017201834862,
+    "required_n_per_group": 1415,
+    "required_total": 2830,
+    "required_n_per_group_with_cuped": 264,
+    "cuped_correlation_rho": 0.9021105674537795,
+    "expected_daily_enrollment": 250,
+    "enrollment_days_raw": 11.32,
+    "enrollment_days_rounded_to_full_weeks": 14,
+    "mde_achieved_kwh_day": 1.8777430884702915,
+    "mde_achieved_relative": 0.04533383611702174,
+    "observation_days_per_user": 28,
+    "total_duration_days": 41,
+    "actual_n_per_group": 1721
+  },
+  "guardrail_satisfaction": {
+    "mean_B": 3.825864276568502,
+    "mean_A": 3.889602053915276,
+    "diff": -0.06373777734677377,
+    "se": 0.04547795849887825,
+    "ci_low": -0.15294231860778085,
+    "ci_high": 0.025466763914233317,
+    "p_value": 0.1612612616599487,
+    "n_B": 781,
+    "n_A": 779,
+    "pass": true
+  },
+  "guardrail_complaints": {
+    "rate_B": 0.06373117033603708,
+    "rate_A": 0.06595264937993235,
+    "diff": -0.0022214790438952747,
+    "ci_low": -0.018537093188950027,
+    "ci_high": 0.014094135101159477,
+    "p_value": 0.7896223549151355,
+    "pass": true
+  },
+  "reduction_ci_pct": [
+    1.2886886673873812,
+    7.333588615294863
+  ],
+  "min_effect_pct": 2.0,
+  "kwh_saved_per_household_per_year": 660.2498716214681
+}
